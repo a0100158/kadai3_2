@@ -1,0 +1,10 @@
+CREATE TABLE `mystudy_wb1`.`library` (
+  `library_id` INT NOT NULL,
+  `library_name` VARCHAR(45) NULL,
+  PRIMARY KEY (`library_id`));
+
+CREATE TABLE `mystudy_wb1`.`pegging` (
+  `pegging_id` INT NOT NULL,
+  `library_id` INT NOT NULL,
+  `id` INT NOT NULL,
+  PRIMARY KEY (`pegging_id`));
