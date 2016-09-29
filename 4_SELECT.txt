@@ -1,0 +1,4 @@
+SELECT library.library_name,count(*) FROM pegging
+inner join library
+on pegging.library_id = library.library_id
+group by library.library_name ;
