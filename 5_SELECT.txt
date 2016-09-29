@@ -1,0 +1,6 @@
+SELECT library.library_name FROM pegging
+inner join library
+on pegging.library_id = library.library_id
+inner join book
+on pegging.id = book.id
+where book.title = '–{A';
