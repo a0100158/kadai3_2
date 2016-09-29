@@ -1,0 +1,3 @@
+INSERT INTO `mystudy_wb1`.`library` (`library_id`, `library_name`) VALUES ('1', 'A}‘ŠÙ');
+INSERT INTO `mystudy_wb1`.`library` (`library_id`, `library_name`) VALUES ('2', 'B}‘ŠÙ');
+INSERT INTO `mystudy_wb1`.`library` (`library_id`, `library_name`) VALUES ('3', 'C}‘ŠÙ');
